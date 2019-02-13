@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ahorcado PHP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Juego Ahorcado V 1.0</h1>
+    <br><br>
+    <h3>Palabra</h3>
+    <br>
+    <form action="ahorcado.php" method="post">
+       <!-- Los campos palabra y intentos son obligatorios y la palabra debe tener una longitud maxima de 10 letras -->
+        <input type="text" name="palabra" maxlength="10" required/>
+        <br><br>
+        <h3>Intentos</h3>
+        <br>
+        <input type="number" name="intentos" required/><br><br>
+        <input type="hidden" name="asteris" />
+        <input type="hidden" name="oculto" value="0" />
+        <input type="submit" value="enviar" />
+    </form>
+</body>
+
+</html>

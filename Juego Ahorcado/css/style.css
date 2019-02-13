@@ -1,0 +1,81 @@
+* {
+    text-align: center;
+    margin: auto;
+    padding: 10px;    
+    font-family: "f2";
+    color: black;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    width: 50%;
+    border: 2px;
+    font-size: 30px;
+    border-radius: 4px;
+    background: rgba(147, 206, 222, 0.43);
+    box-shadow: 1px 0px 5px 8px  #154360;
+    -webkit-box-shadow:  1px 0px 5px 8px  #154360;
+    -moz-box-shadow: 1px 0px 5px 8px  #154360;
+}
+
+h1:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=100);
+    color:red;
+    font-size: 27px;
+}
+
+h3 {
+    width: 150px;
+    border: 2px;
+    font-size: 20px;
+    border-radius: 4px;
+    background: rgba(147, 206, 222, 0.43);
+    box-shadow: 1px 0px 5px 8px grey;
+    -webkit-box-shadow:  1px 0px 5px 8px grey;
+    -moz-box-shadow: 1px 0px 5px 8px grey;
+}
+
+input {
+    border: 1px;
+    border-radius: 145px / 75px;
+    font-family: "f2";
+    font-size: 20px;
+    color: black;
+    opacity: 0.8; 
+    background-color: gray;
+}
+
+table {
+    padding: 5px;
+    width: 50%;
+}
+
+table td {
+    color: white;
+    background-color:  gray;
+    opacity: 0.7;    
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 45px;
+}
+
+img {
+    border: 1px;
+    border-radius: 50px;
+}
+
+@font-face { 
+	font-family: 'f2';
+	src: url('../fuentes/f2.ttf');
+}
+
+
+
